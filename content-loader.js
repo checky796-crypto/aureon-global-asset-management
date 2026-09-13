@@ -10,6 +10,7 @@
     const br = s => String(s || '').replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
 
     text(q('.logo-text b'), d.brand?.name);
+    text(q('.diamond i'), d.brand?.name?.charAt(0).toUpperCase());
     text(q('.logo-text small'), d.brand?.subtitle);
     text(q('.hero .cap'), d.hero?.kicker);
     html(q('.hero h1'), `${d.hero?.title1 || ''}<br><em>${d.hero?.title2 || ''}</em>`);
