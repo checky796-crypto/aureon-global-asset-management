@@ -1,0 +1,113 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "/"
+display_url: "/"
+logo_url: "/assets/office-main.png"
+
+collections:
+  - name: "site"
+    label: "网站内容"
+    files:
+      - name: "main"
+        label: "AUREON 网站内容"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "品牌"
+            name: "brand"
+            widget: "object"
+            fields:
+              - {label: "公司主名称", name: "name", widget: "string"}
+              - {label: "公司副标题", name: "subtitle", widget: "string"}
+          - label: "首页 Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "顶部小字", name: "kicker", widget: "string"}
+              - {label: "主标题第一行", name: "title1", widget: "string"}
+              - {label: "主标题第二行", name: "title2", widget: "string"}
+              - {label: "介绍文字", name: "copy", widget: "text"}
+              - {label: "按钮文字", name: "cta", widget: "string"}
+          - label: "市场背景"
+            name: "context"
+            widget: "object"
+            fields:
+              - {label: "编号/栏目", name: "label", widget: "string"}
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "正文", name: "body", widget: "text"}
+          - label: "经验"
+            name: "experience"
+            widget: "object"
+            fields:
+              - {label: "编号/栏目", name: "label", widget: "string"}
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "导语", name: "lead", widget: "text"}
+              - {label: "指标1数值", name: "stat1Value", widget: "string"}
+              - {label: "指标1说明", name: "stat1Label", widget: "string"}
+              - {label: "指标2数值", name: "stat2Value", widget: "string"}
+              - {label: "指标2说明", name: "stat2Label", widget: "string"}
+              - {label: "指标3数值", name: "stat3Value", widget: "string"}
+              - {label: "指标3说明", name: "stat3Label", widget: "string"}
+              - {label: "正文", name: "body", widget: "text"}
+          - label: "服务"
+            name: "services"
+            widget: "object"
+            fields:
+              - {label: "编号/栏目", name: "label", widget: "string"}
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "简介", name: "intro", widget: "text"}
+              - label: "服务项目"
+                name: "items"
+                widget: "list"
+                min: 3
+                max: 3
+                fields:
+                  - {label: "标题", name: "title", widget: "string"}
+                  - {label: "正文", name: "body", widget: "text"}
+          - label: "空间"
+            name: "spaces"
+            widget: "object"
+            fields:
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "说明", name: "note", widget: "text"}
+              - {label: "空间1标题", name: "item1Title", widget: "string"}
+              - {label: "空间1正文", name: "item1Body", widget: "text"}
+              - {label: "空间2标题", name: "item2Title", widget: "string"}
+              - {label: "空间2正文", name: "item2Body", widget: "text"}
+              - {label: "空间3标题", name: "item3Title", widget: "string"}
+              - {label: "空间3正文", name: "item3Body", widget: "text"}
+          - label: "São Paulo"
+            name: "saopaulo"
+            widget: "object"
+            fields:
+              - {label: "栏目", name: "label", widget: "string"}
+              - {label: "标题", name: "title", widget: "string"}
+              - {label: "正文", name: "body", widget: "text"}
+          - label: "原则"
+            name: "principles"
+            widget: "object"
+            fields:
+              - {label: "编号/栏目", name: "label", widget: "string"}
+              - {label: "标题", name: "title", widget: "string"}
+              - label: "原则列表"
+                name: "items"
+                widget: "list"
+                min: 3
+                max: 3
+                fields:
+                  - {label: "标题", name: "title", widget: "string"}
+                  - {label: "正文", name: "body", widget: "text"}
+          - label: "结尾"
+            name: "closing"
+            widget: "object"
+            fields:
+              - {label: "品牌行", name: "kicker", widget: "string"}
+              - {label: "第一行", name: "line1", widget: "string"}
+              - {label: "第二行", name: "line2", widget: "string"}
+              - {label: "第三行", name: "line3", widget: "string"}
+              - {label: "底部短句", name: "sub", widget: "string"}

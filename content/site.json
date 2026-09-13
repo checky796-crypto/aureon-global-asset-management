@@ -1,0 +1,71 @@
+{
+  "brand": {
+    "name": "AUREON",
+    "subtitle": "GLOBAL ASSET MANAGEMENT"
+  },
+  "hero": {
+    "kicker": "SÃO PAULO · BRASIL · MERCADOS GLOBAIS",
+    "title1": "Capital com direção.",
+    "title2": "Patrimônio com futuro.",
+    "copy": "Uma plataforma de gestão patrimonial que conecta a força econômica do Brasil a oportunidades globais, combinando pesquisa, tecnologia e rigor na gestão de riscos.",
+    "cta": "Conheça nossa abordagem"
+  },
+  "context": {
+    "label": "01 · CONTEXTO",
+    "title": "Do Brasil para uma nova arquitetura global de capital.",
+    "body": "O Brasil vive um momento em que desafios e oportunidades avançam lado a lado. Inflação, oscilações de juros, pressões fiscais e mudanças nos fluxos internacionais ampliam a complexidade das decisões patrimoniais.\n\nAo mesmo tempo, recursos naturais, um amplo mercado consumidor, agricultura, energia, fintechs e a economia digital sustentam um horizonte relevante de transformação. Nesse ambiente, incerteza não significa ausência de oportunidade. Significa que abordagens tradicionais e concentradas já não são suficientes."
+  },
+  "experience": {
+    "label": "02 · EXPERIÊNCIA",
+    "title": "Conhecimento construído através de diferentes ciclos de mercado.",
+    "lead": "A liderança de investimento reúne formação internacional, pesquisa acadêmica e mais de três décadas de experiência nos mercados financeiros.",
+    "stat1Value": "30+",
+    "stat1Label": "anos de experiência",
+    "stat2Value": "Global",
+    "stat2Label": "visão multiclasse",
+    "stat3Value": "CFA · CMT",
+    "stat3Label": "certificações profissionais",
+    "body": "Com formação em Finanças e Economia pela Wharton School, MBA pela Harvard Business School e trajetória iniciada em Wall Street, sua atuação abrange ações, ETFs, câmbio, ativos digitais e alocação global. Ao longo da carreira, participou da gestão de carteiras de clientes em escala de dezenas de bilhões de dólares."
+  },
+  "services": {
+    "label": "03 · ATUAÇÃO",
+    "title": "Estratégias para um patrimônio sem fronteiras.",
+    "intro": "Serviços concebidos para investidores de alta renda, empresários e profissionais que buscam diversificação, clareza e acompanhamento especializado.",
+    "items": [
+      {"title": "Alocação global e gestão de portfólios", "body": "Estratégias personalizadas a partir do patrimônio, objetivos, horizonte, liquidez e tolerância ao risco de cada cliente. A análise contínua de ciclos econômicos e fluxos de capital orienta uma alocação diversificada entre mercados e classes de ativos elegíveis."},
+      {"title": "Pesquisa em ativos digitais e blockchain", "body": "Pesquisa estruturada sobre Bitcoin, Ethereum, infraestrutura blockchain e finanças descentralizadas, combinando fundamentos, dados on-chain, leitura de ciclos, tendências tecnológicas e avaliação de riscos."},
+      {"title": "Educação de investimentos e serviços exclusivos", "body": "Análises individuais, estudos estratégicos, avaliação de portfólios, alertas de risco e encontros privados para investidores de alta renda e profissionais qualificados."}
+    ]
+  },
+  "spaces": {
+    "title": "Arquitetura a serviço de decisões melhores.",
+    "note": "Imagens conceituais do projeto de interiores da futura sede da AUREON em São Paulo.",
+    "item1Title": "Sede de gestão em São Paulo",
+    "item1Body": "4.660 m² planejados para conectar o patrimônio brasileiro aos mercados globais de capital.",
+    "item2Title": "Espaço de decisões estratégicas",
+    "item2Body": "Um ambiente concebido para transformar pesquisa global e governança profissional em estratégias patrimoniais de longo prazo.",
+    "item3Title": "Terraço exclusivo para membros",
+    "item3Body": "Um espaço reservado para encontros privados, onde ideias, conexões e oportunidades globais convergem."
+  },
+  "saopaulo": {
+    "label": "SÃO PAULO · PRÓXIMO CAPÍTULO",
+    "title": "Uma ponte entre o patrimônio brasileiro e os mercados internacionais.",
+    "body": "A futura unidade de São Paulo nasce com a proposta de integrar visão global, pesquisa local, tecnologia e disciplina de risco. A partir do principal centro financeiro da América Latina, a Aureon pretende desenvolver uma plataforma de serviços de alto padrão voltada às necessidades reais do mercado brasileiro."
+  },
+  "principles": {
+    "label": "05 · PRINCÍPIOS",
+    "title": "Avançar nas oportunidades. Proteger diante dos riscos.",
+    "items": [
+      {"title": "Visão global", "body": "Leitura integrada de mercados, moedas e ciclos econômicos."},
+      {"title": "Pesquisa independente", "body": "Decisões sustentadas por análise, método e disciplina."},
+      {"title": "Gestão de risco", "body": "Preservação, liquidez e resiliência orientam cada estratégia."}
+    ]
+  },
+  "closing": {
+    "kicker": "AUREON GLOBAL ASSET MANAGEMENT",
+    "line1": "Visão para compreender.",
+    "line2": "Estratégia para crescer.",
+    "line3": "Disciplina para permanecer.",
+    "sub": "Visão global. Crescimento estratégico. Patrimônio duradouro."
+  }
+}

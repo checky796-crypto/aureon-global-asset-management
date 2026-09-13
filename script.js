@@ -1,0 +1,1 @@
+const b=document.querySelector('.hamb'),n=document.querySelector('.topbar nav');b?.addEventListener('click',()=>{if(n.style.display==='flex'){n.style.display='none'}else{Object.assign(n.style,{display:'flex',position:'absolute',top:'82px',left:'0',right:'0',background:'#0a1a27',padding:'25px 6%',flexDirection:'column',gap:'20px'})}});
