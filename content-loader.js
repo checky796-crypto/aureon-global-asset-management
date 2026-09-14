@@ -62,7 +62,7 @@
     text(q('.final-kicker'), d.closing?.kicker);
     html(q('.final-panel h2'), `${d.closing?.line1 || ''}<br>${d.closing?.line2 || ''}<br><em>${d.closing?.line3 || ''}</em>`);
     text(q('.final-sub'), d.closing?.sub);
-    document.title = `${d.brand?.name || 'AUREON'} ${d.brand?.subtitle || ''}`.trim();
+    document.title = `${d.brand?.name || 'Aurevia'} ${d.brand?.subtitle || ''}`.trim();
   } catch (e) {
     console.warn('Content config not loaded:', e);
   }
