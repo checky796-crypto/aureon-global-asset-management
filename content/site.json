@@ -85,5 +85,23 @@
         "body": "Análises individuais, estudos estratégicos, avaliação de portfólios, alertas de risco e encontros privados para investidores de alta renda e profissionais qualificados."
       }
     ]
+  },
+  "leadership": {
+    "ceo": {
+      "role": "Diretor Executivo / CEO",
+      "name": "Professor Zorland",
+      "title": "Diretor Executivo",
+      "image": "assets/professor-zorland.png",
+      "bio1": "Responsável pela estratégia geral, pela filosofia de investimento e pelo desenvolvimento dos negócios globais da Aurevia. Possui ampla experiência nos mercados de capitais e na gestão de ativos, com foco na alocação de longo prazo, na gestão de riscos e em oportunidades de investimento em diferentes mercados.",
+      "bio2": "Dedica-se a conectar as oportunidades econômicas do Brasil aos mercados globais de capitais, desenvolvendo para os clientes uma estrutura de gestão de ativos pautada pela disciplina, pela resiliência e pela criação de valor no longo prazo."
+    },
+    "assistant": {
+      "role": "Assistente Executiva",
+      "name": "Elena",
+      "title": "Assistente Executiva",
+      "image": "assets/elena.png",
+      "bio1": "Responsável pela coordenação administrativa, pela gestão de agendas e pelo apoio à comunicação com clientes e parceiros da Aurevia, auxiliando a equipe de gestão a manter as operações diárias eficientes e organizadas.",
+      "bio2": "Com profissionalismo, atenção aos detalhes e rigorosa confidencialidade, oferece suporte ao atendimento aos clientes e às atividades de gestão da empresa."
+    }
   }
 }
