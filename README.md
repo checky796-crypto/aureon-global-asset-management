@@ -1,1 +1,1 @@
-AUREON 1:1 visual rebuild. Replace the three images in assets/ with the original office images using the same filenames for exact fidelity.
+Aurevia 1:1 visual rebuild. Replace the three images in assets/ with the original office images using the same filenames for exact fidelity.
