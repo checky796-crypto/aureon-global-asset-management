@@ -1,4 +1,4 @@
-AUREON 管理后台版
+Aurevia 管理后台版
 
 前台：/
 后台：/admin/
