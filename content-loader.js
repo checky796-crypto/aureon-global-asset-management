@@ -30,6 +30,20 @@
     if (stats[2]) { text(stats[2].querySelector('b'), d.experience?.stat3Value); text(stats[2].querySelector('small'), d.experience?.stat3Label); }
     text(q('.experience .body'), d.experience?.body);
 
+    const leadership = d.leadership || {};
+    const profiles = qa('.leadership-profile');
+    const profileData = [leadership.ceo, leadership.assistant];
+    profiles.forEach((profile, i) => {
+      const item = profileData[i]; if (!item) return;
+      text(profile.querySelector('.leadership-role'), item.role);
+      text(profile.querySelector('h2'), item.name);
+      text(profile.querySelector('.leadership-title'), item.title);
+      const bios = profile.querySelectorAll('.leadership-copy > p:not(.leadership-role):not(.leadership-title)');
+      text(bios[0], item.bio1); text(bios[1], item.bio2);
+      const image = profile.querySelector('img');
+      if (image && item.image) { image.src = item.image; image.alt = item.name; }
+    });
+
     text(q('.services .cap'), d.services?.label);
     text(q('.services-head h2'), d.services?.title);
     text(q('.services-head > p'), d.services?.intro);
