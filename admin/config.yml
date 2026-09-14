@@ -14,7 +14,7 @@ collections:
     label: "网站内容"
     files:
       - name: "main"
-        label: "AUREON 网站内容"
+        label: "Aurevia 网站内容"
         file: "content/site.json"
         format: "json"
         fields:
