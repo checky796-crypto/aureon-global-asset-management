@@ -54,6 +54,30 @@ collections:
               - {label: "指标3数值", name: "stat3Value", widget: "string"}
               - {label: "指标3说明", name: "stat3Label", widget: "string"}
               - {label: "正文", name: "body", widget: "text"}
+          - label: "管理团队"
+            name: "leadership"
+            widget: "object"
+            fields:
+              - label: "首席执行官 / CEO"
+                name: "ceo"
+                widget: "object"
+                fields:
+                  - {label: "职位", name: "role", widget: "string"}
+                  - {label: "姓名", name: "name", widget: "string"}
+                  - {label: "英文职位", name: "title", widget: "string"}
+                  - {label: "照片路径", name: "image", widget: "string"}
+                  - {label: "介绍第一段", name: "bio1", widget: "text"}
+                  - {label: "介绍第二段", name: "bio2", widget: "text"}
+              - label: "行政助理"
+                name: "assistant"
+                widget: "object"
+                fields:
+                  - {label: "职位", name: "role", widget: "string"}
+                  - {label: "姓名", name: "name", widget: "string"}
+                  - {label: "英文职位", name: "title", widget: "string"}
+                  - {label: "照片路径", name: "image", widget: "string"}
+                  - {label: "介绍第一段", name: "bio1", widget: "text"}
+                  - {label: "介绍第二段", name: "bio2", widget: "text"}
           - label: "服务"
             name: "services"
             widget: "object"
