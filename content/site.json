@@ -97,9 +97,9 @@
     },
     "assistant": {
       "role": "Assistente Executiva",
-      "name": "Elena",
+      "name": "Selena",
       "title": "Assistente Executiva",
-      "image": "assets/elena.png",
+      "image": "assets/selena.png",
       "bio1": "Responsável pela coordenação administrativa, pela gestão de agendas e pelo apoio à comunicação com clientes e parceiros da Aurevia, auxiliando a equipe de gestão a manter as operações diárias eficientes e organizadas.",
       "bio2": "Com profissionalismo, atenção aos detalhes e rigorosa confidencialidade, oferece suporte ao atendimento aos clientes e às atividades de gestão da empresa."
     }
